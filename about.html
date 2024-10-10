@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo1_y3fmfr.svg">
+    <title>Quinn Daisies</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="container">
+
+        <div class="section_one">
+
+            <div class="section_one_sub">
+
+                <div class="faded-box" id="fadedBox"></div>
+
+                <header>
+
+                    <div class="header_sub">
+
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo1_y3fmfr.svg" alt="">
+                            </a>
+                        </div>
+
+                        <nav class="nav" id="navbar">
+                            <ul>
+
+                                <li><a href="services.html">What We Do ?</a></li>
+                                <li><a href="about.html">Who We Are ?</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <div class="link_two">
+
+                                <div class="sign_in">
+                                    <a href="#">Sign in</a>
+                                </div>
+
+                                <div class="trial">
+                                    <a href="#">Try for free</a>
+                                </div>
+                            </div>
+
+                        </nav>
+                        <div class="bar" onclick="toggleNavBar()">
+                            <span class="bar_sub"></span>
+                            <span class="bar_sub"></span>
+                            <span class="bar_sub"></span>
+                        </div>
+
+
+                    </div>
+
+                </header>
+
+                <div class="section_one_sub_container">
+
+                    <div class="section_one_sub_container_text">
+
+                        <span class="highlight">Fueling Progress through Vision and Expertise</span>
+                        <h2>Transforming Businesses with Strategic Plans and Tailored Solutions </h2>
+                        <p>Our expert team is dedicated to crafting innovative strategies that empower businesses to
+                            reach new heights. Through a combination of forward-thinking technology, creativity, and
+                            in-depth industry knowledge, we deliver exceptional results that drive growth and success
+                            across multiple sectors.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="section_aboutUs">
+
+            <div class="section_aboutUs_sub">
+
+                <div class="section_aboutUs_sub_container">
+
+                    <div class="section_aboutUs_sub_container_box1">
+
+                        <div class="section_aboutUs_sub_container_box1_text">
+
+                            <h2><span>Introduction</span> to best digital agency!</h2>
+
+                        </div>
+
+                        <div class="section_aboutUs_sub_container_box1_text">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ea. Incidunt, eveniet
+                                assumenda nemo odio itaque fuga labore qui commodi esse ratione sit in sint eum sequi
+                                blanditiis. Sint omnis, tempore quos totam .
+                            </p>
+                        </div>
+
+                        <div class="section_aboutUs_sub_container_box1_text">
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, ea. Incidunt, eveniet
+                                assumenda nemo odio itaque fuga labore qui commodi esse ratione sit in sint eum sequi
+                                blanditiis. Sint omnis, tempore quos totams.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="section_aboutUs_sub_container_box2">
+
+                        <div class="section_aboutUs_sub_container_box2_subber">
+
+                            <div class="section_aboutUs_sub_container_box2_subber_img">
+                                <img src="img/money _bag.png" alt="">
+                            </div>
+
+                            <div class="section_aboutUs_sub_container_box2_subber_text">
+                                <h3>Best pricing Guaranteed</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis</p>
+                            </div>
+
+                        </div>
+
+                        <div class="section_aboutUs_sub_container_box2_subber">
+
+                            <div class="section_aboutUs_sub_container_box2_subber_img">
+                                <img src="img/coins.png" alt="">
+                            </div>
+
+                            <div class="section_aboutUs_sub_container_box2_subber_text">
+                                <h3>Finance Analysis</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis</p>
+                            </div>
+
+                        </div>
+
+                        <div class="section_aboutUs_sub_container_box2_subber">
+
+                            <div class="section_aboutUs_sub_container_box2_subber_img">
+                                <img src="img/img4.png" alt="">
+                            </div>
+
+                            <div class="section_aboutUs_sub_container_box2_subber_text">
+                                <h3>Professional Team</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="progress_bar">
+
+            <div class="progress_bar_sub">
+
+                <div class="head">
+                    <h2>Key Performance Metrics Overview</h2>
+                    <p>This visualization highlights essential performance metrics, providing real-time insights into
+                        completion rates, efficiency, productivity, and quality. Each ring dynamically reflects
+                        progress, ensuring transparent tracking of critical business goals.</p>
+                </div>
+
+                <div class="progress_bar_sub_container">
+
+                    <div id="completion-ring" class="progress-ring" data-percentage="100" data-color="#f9a144">
+                        <div class="progress-ring__label">SEO Excellence</div>
+                    </div>
+                    <div id="efficiency-ring" class="progress-ring" data-percentage="72" data-color="#f9a144">
+                        <div class="progress-ring__label">Digital Growth</div>
+                    </div>
+                    <div id="productivity-ring" class="progress-ring" data-percentage="60" data-color="#f9a144">
+                        <div class="progress-ring__label">Innovative Solutions</div>
+                    </div>
+                    <div id="quality-ring" class="progress-ring" data-percentage="95" data-color="#f9a144">
+                        <div class="progress-ring__label">Expert Management</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section_two">
+
+            <div class="section_two_sub">
+
+                <div class="section_two_sub_container">
+
+                    <div class="section_two_sub_container_img">
+                        <img src="img/sec_5.jpg" alt="">
+                        <img src="img/business-partners.avif" alt="">
+                        <div class="section_two_sub_container_img_text">
+                            <h3>just first dey</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nisi.</p>
+                        </div>
+                        <img src="img/three.jpg" alt="">
+                    </div>
+
+                    <div class="section_two_sub_container_text">
+
+                        <h2>We are the Exclusive search and recruitment expert</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam atque iusto voluptas, quidem
+                            totam libero.</p>
+                            
+                        <div class="content_one_sub_container_text_link">
+                            <a href="" class="content_one_sub_container_text_link_btn">
+                                <span> Get in touch
+                                    <i class='bx bx-right-arrow-alt'></i></span>
+                            </a>
+                        </div>
+
+                        <div class="section_four_sub_container_video">
+                            <img src="img/try.png" alt="" class="doter">
+    
+                            <div class="section_four_sub_container_video_sub">
+                                <button id="playPauseBtn"><i class='bx bx-play'></i></button>
+    
+                                <video id="video">
+                                    <source src="img/tech_video_2.mp4">
+                                </video>
+    
+                            </div>
+    
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="mission">
+
+            <div class="mission_sub">
+
+                <div class="mission_sub_container">
+
+
+                    <div class="mission_sub_container_text">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <span class="high">Our mission</span>
+                        <p>To be the trusted leader in on-code automation</p>
+
+                    </div>
+
+                    <div class="mission_sub_container_img">
+
+                        <div class="mission_sub_container_img_sub1">
+                            <img src="img/js.jpg" alt="">
+                            <img src="img/js.jpg" alt="">
+                            <img src="img/js.jpg" alt="">
+                        </div>
+
+                        <div class="mission_sub_container_img_sub2">
+                            <img src="img/central_bg.png" alt="">
+
+                        </div>
+
+                        <div class="mission_sub_container_img_sub3">
+                            <img src="img/js.jpg" alt="">
+                            <img src="img/js.jpg" alt="">
+                            <img src="img/js.jpg" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="section_three">
+
+            <div class="section_three_sub">
+
+                <div class="section_three_sub_container">
+
+                    <div class="section_three_sub_container_text">
+                        <span>Hire us now</span>
+                        <h2>Our goal is to take ur business to the <span>next Level</span></h2>
+
+                        <div class="content_one_sub_container_text_link">
+                            <a href="" class="content_one_sub_container_text_link_btn">
+                                <span> Get in touch
+                                    <i class='bx bx-right-arrow-alt'></i></span>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="section_four">
+
+            <div class="section_four_sub">
+
+                <div class="section_four_sub_container">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div class="footer_sub">
+
+                <div class="footer_sub_container1">
+
+                    <div class="logo_section">
+                        <a href="index.html">
+                            <img src="img/logo1_y3fmfr.svg" alt="">
+                            <h2>Quinn Daisies </h2>
+                        </a>
+
+
+                        <div class="logo_section_sub">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, rem. Cumque eum .</p>
+                        </div>
+                    </div>
+
+                    <div class="link_section">
+                        <h3>Navigation</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="link_section">
+                        <h3>Quick Limk</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">FAQs</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Pricing</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="link_section">
+                        <h3>Services</h3>
+
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">404</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="footer_sub_container2">
+
+                    <div class="footer_sub_container2_sub">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p>Your trusted partner, always within reach</p>
+                    </div>
+
+
+                    <div class="footer_sub_container2_sub">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>(+234)9045900732</p>
+                    </div>
+
+                    <div class="footer_sub_container2_sub">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <p>Mail@QuinnDaisies</p>
+                    </div>
+
+                    <div class="footer_sub_container2_subb">
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-youtube'></i></a>
+                    </div>
+
+                </div>
+
+                <div class="footer_text">
+                    <p><i class='bx bx-copyright' style='color:#ffffff'></i>2024 QuinnDaisies. All rights reserved</p>
+                </div>
+
+
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+<script src="scripts/index.js"></script>
+
+</html>
